@@ -1,0 +1,81 @@
+
+/* Global background animation */
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  position: relative; /* Ensure body is a positioning context */
+  min-height: 100vh; /* Ensure body covers at least full viewport height */
+}
+
+.absolute{
+  position: fixed;
+  top:50px !important;
+  inset:0;
+  justify-content: center;
+  display: inline-flex;
+  flex-direction: row;
+  z-index: -1;
+ }
+ .justify-center{
+  justify-content: center;
+ }
+ .bg-shape1{
+  width: 600px;
+  height: 600px;
+  border-radius: 9999px;
+  position: relative;
+  animation: one 5s infinite;
+ }
+ .bg-shape2{
+  width: 500px;
+  height: 500px;
+  border-radius: 9999px;
+  position: relative;
+  animation: two 5s infinite;
+ }
+ 
+
+ @keyframes one {
+  0%{left:0px ;top : 0px ;}
+  25%{left:-100px ;top : 70px ;}
+  50%{left:20px ;top : 150px ;}
+  75%{left:50px ;top :100px ;}
+  100%{left:0px ;top : 0px ;}
+ }
+ @keyframes two {
+  0%{left:0px ;top : 0px ;}
+  25%{left:50px ;top : 10px ;}
+  50%{left:100px ;top : 50px ;}
+  75%{left:50px ;top : 100px ;}
+  100%{left:0px ;top : 0px ;}
+ }
+
+ .opacity-50{
+  opacity: .5;
+ }
+ .bg-blur{
+   filter: blur(70px);
+ }
+ .bg-primary{
+  background-color: #106589;
+ }
+ .bg-teal{
+  background-color: rgba(16, 181, 181, 0.857);
+ }
+ .bg-purpule{
+  background-color:rgb(127, 48, 245)
+ }
+/* Ensure content sections appear above background */
+section {
+  position: relative;
+  z-index: 1;
+  background-color: transparent; /* Ensure content background does not interfere */
+}
+/* Exclude specific section from background */
+.no-background {
+  
+  z-index: 2; /* Ensure it is above the background */
+  
+}
+

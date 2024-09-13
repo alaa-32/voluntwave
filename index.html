@@ -3,21 +3,314 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>volunt wave</title>
+  <link rel="stylesheet" href="./css/contact.css">
   <link rel="stylesheet" href="style.css">
-</head>
+  <link rel="stylesheet" href="./css/background.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+   <!--=============== REMIXICONS ===============-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
+
+   <!--=============== SWIPER CSS ===============-->
+   <link rel="stylesheet" href="swiper-bundle.min.css">
 <body>
-  <header class="header">
+
+  <header> 
     <a href="index.html">
-      <img src="" alt="logo" class="logo">
+      <img src="logo.svg" alt="logo">
     </a>
-    <nav class="navbar">
-      <a href="index.html"> home</a>
-      <a href="donations.html"> donations</a>
-      <a href="contact.html">contact</a>
-      <a href="account.html">account</a>
-    </nav>
+    <div class="menu-btn"></div>
+    <div class="navigation">
+      <div class="navigation-items">
+        <a href="#home1">Home</a>
+        <a href="#donate">donations</a>
+        <a href="#swiper">events</a>
+        <a href="#contact1">contact</a>
+        <a href="account.html">account</a>
+      </div>
+    </div>
   </header>
+    
+  <section class="home no-background" id="home1">
+    <video class="video-slide active" src="1.mp4" autoplay muted loop></video>
+    <video class="video-slide" src="2.mp4" autoplay muted loop></video>
+    <video class="video-slide" src="3.mp4" autoplay muted loop></video>
+    <video class="video-slide" src="4.mp4" autoplay muted loop></video>
+    <video class="video-slide" src="5.mp4" autoplay muted loop></video>
+
+    <div class="content active">
+      <h1>Welcome to <br><span>vw</span></h1>
+      <p>a platform dedicated to connecting people with charities. Our mission is to make giving easier by linking charitable organizations with those eager to support, volunteer, or donate."</p>
+      <a href="#">donate now</a>
+    </div>
+    <div class="content">
+      <h1>Donate on<br><span>your terms!</span></h1>
+      <p>Whether it's food, money, supplies, or more, our website allows you to choose exactly how you want to help and make a difference in the way that feels right for you."</p>
+      <a href="#">donate now</a>
+    </div>
+    <div class="content">
+      <h1>Stay<br><span>updated.</span></h1>
+      <p> with the latest charity events! Explore a wide variety of announcements and find opportunities to contribute to causes close to your heart."</p>
+      <a href="#">donate now</a>
+    </div>
+    <div class="content">
+      <h1>Find Trusted  <br><span>Charities Easily.</span></h1>
+      <p>"We partner with many charity associations, giving you quick access to trusted organizations. Find the right charity in just a few clicks."</p>
+      <a href="#">donate now</a>
+    </div>
+    <div class="content">
+      <h1>Your Contribution<br><span> Matters</span></h1>
+      <p>Every act of kindness counts.Your generosity has the power to change lives. Together, let’s make the world a better place, one donation at a time</p>
+      <a href="#">Read More</a>
+    </div>
+    <div class="media-icons">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+    </div>
+    <div class="slider-navigation">
+      <div class="nav-btn active"></div>
+      <div class="nav-btn"></div>
+      <div class="nav-btn"></div>
+      <div class="nav-btn"></div>
+      <div class="nav-btn"></div>
+    </div>
+  </section>
+
+  <div class="absolute">
+   <div class="absolute inset-0 justify-center">
+     <div class="bg-shape1 bg-teal opacity-50 bg-blur"></div>
+     <div class="bg-shape2 bg-primary opacity-50 bg-blur"></div>
+     <div class="bg-shape1 bg-purpule opacity-50 bg-blur"></div>
+   </div>
+ </div>
+ <!-- donation section -->
+  <section class="type" id="donate">
+    <h1>Support in Your Own Way Pick a Donation Option </h1>
+    <div class="wrapper">
+      <a href="#" class="icon facebook">
+         <div class="tooltip">
+            food
+         </div>
+         <span><i class='bx bx-bowl-hot'></i></span>
+      </a>
+      <a href="#" class="icon twitter">
+         <div class="tooltip">
+           money
+         </div>
+         <span><i class='bx bx-money'></i></span>
+      </a>
+      <a href="#" class="icon instagram">
+         <div class="tooltip">
+          medical care
+         </div>
+         <span><i class='bx bxs-capsule'></i></span>
+      </a>
+      <div class="icon github">
+         <div class="tooltip">
+            supplies
+         </div>
+         <span><i class='bx bx-book-heart' ></i></span>
+      </div>
+      <a href="#" class="icon youtube">
+         <div class="tooltip">
+          clothes
+         </div>
+         <span><i class='bx bx-closet' ></i></span>
+      </a>
+      <a href="#" class="icon youtube">
+        <div class="tooltip">
+           volunteer
+        </div>
+        <span><i class='bx bxs-tree'></i></i></span>
+     </a>
+   </div>
+  </section>  
+
+  <section class="donation-request">
+    <h1>○ donation request: </h1>
+  <div class="card-container">
+    <div class="card">
+       <img src="./donation/food.png" alt="photo">
+       <div class="card-content">
+          <p>hfduierhguhghegjhdighenkdhgegiuehbdfgjhergiuae</p>
+          <a href="" class="btn"> donate now</a>
+       </div>
+    </div>
+    <div class="card">
+       <img src="./donation/volunteer.png" alt="photo">
+       <div class="card-content">
+          <p>hfduierhguhghegjhdighenkdhgegiuehbdfgjhergiuae</p>
+          <a href="index.html" class="btn"> donate now</a>
+       </div>
+    </div>
+    <div class="card">
+       <img src="./donation/blood.png" alt="photo">
+       <div class="card-content">
+          <p>donate blood</p>
+          <a href="" class="btn"> donate now</a>
+       </div>
+    </div>
+    <div class="card">
+       <img src="./donation/school.png" alt="photo">
+       <div class="card-content">
+          <p>hfduierhguhghegjhdighenkdhgegiuehbdfgjhergiuae</p>
+          <a href="" class="btn"> donate now</a>
+       </div>
+    </div>
+  </div>
+</section>
+   
+<!-- swiper -->
+ 
+<section id="swiper">
+   <h1>○ Explore Charity Events:</h1>
+<section class="container">
+  <div class="card__container swiper">
+     <div class="card__content">
+        <div class="swiper-wrapper">
+           <article class="card__article swiper-slide">
+              <div class="card__image">
+                 <img src="./photo/blood.png" alt="image" class="card__img">
+                 <div class="card__shadow"></div>
+              </div>
+
+              <div class="card__data">
+                 <h3 class="card__name">Blood Donation Drive</h3>
+                 <p class="card__description">
+                   Donate blood to save lives!<br>
+                  Date: October 10, 2024<br>
+                  Place:jfhvghfd
+                 </p>
+
+                 <a href="#" class="card__button">view more</a>
+              </div>
+           </article>
+
+           <article class="card__article swiper-slide">
+              <div class="card__image">
+                 <img src="./photo/gaza3.png" alt="image" class="card__img">
+                 <div class="card__shadow"></div>
+              </div>
+
+              <div class="card__data">
+                 <h3 class="card__name">Support Gaza Relief</h3>
+                 <p class="card__description">
+                  Help provide essential aid to Gaza.<br>
+                  October 15, 2024.
+                  association:
+                 </p>
+
+                 <a href="#" class="card__button">View More</a>
+              </div>
+           </article>
+
+           <article class="card__article swiper-slide">
+              <div class="card__image">
+                 <img src="./photo/pink.jpg" alt="image" class="card__img">
+                 <div class="card__shadow"></div>
+              </div>
+
+              <div class="card__data">
+                 <h3 class="card__name">Breast Cancer Awareness Month</h3>
+                 <p class="card__description">
+                  upcoming
+
+                 </p>
+
+                 <a href="#" class="card__button">View More</a>
+              </div>
+           </article>
+
+           <article class="card__article swiper-slide">
+              <div class="card__image">
+                 <img src="./photo/clothesdonation.jpg" alt="image" class="card__img">
+                 <div class="card__shadow"></div>
+              </div>
+
+              <div class="card__data">
+                 <h3 class="card__name">Clothes Collection for Orphans</h3>
+                 <p class="card__description">
+                  Donate clothes to help orphans in need.<br>
+                  Date: October 10, 2024
+                  Place:.......
+                 </p>
+
+                 <a href="#" class="card__button">View More</a>
+              </div>
+           </article>
+
+        </div>
+     </div>
+
+     <!-- Navigation buttons -->
+     <div class="swiper-button-next">
+        <i class="ri-arrow-right-s-line"></i>
+     </div>
+     
+     <div class="swiper-button-prev">
+        <i class="ri-arrow-left-s-line"></i>
+     </div>
+
+     <!-- Pagination -->
+     <div class="swiper-pagination"></div>
+  </div>
+</section>
+</section>
+
+
+<!-- contact -->
+<section class="contact" id="contact1">
+   <div class="contact-container">
+      <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+          <div class="contact-left-title">
+             <h2> get in touch</h2>
+             <hr>
+          </div>
+          <input type="hidden" name="access_key" value="c041e7e7-8d67-4958-aed2-22fdfa02b682">
+          <input type="text" name="name" placeholder=" your name" class="contact-inputs" required>
+          <input type="email" email="email" placeholder=" your email" class="contact-inputs" required>
+          <textarea name="message" placeholder="your message" class="contact-inputs" required></textarea>
+          <button type="submit">submit</button>
+         </form>
+       <div class="contact-right">
+         <img src="logo copy.svg" alt="logo">
+       </div>
+   </div>
+</section>
+<!--footer -->
+<footer>
+   <div class="footerContainer">
+       <div class="socialIcons">
+         <a href="#"><i class="fab fa-facebook-f"></i></a>
+         <a href="#"><i class="fab fa-instagram"></i></a>
+         <a href="#"><i class="fab fa-twitter"></i></a>
+       </div>
+       <div class="footerNav">
+           <ul>
+               <li><a href="">Home</a></li>
+               <li><a href="">donation</a></li>
+               <li><a href="">events</a></li>
+               <li><a href="">Contact Us</a></li>
+               <li><a href="">account</a></li>
+           </ul>
+       </div>
+       
+   </div>
+   <div class="footerBottom">
+       <p>Copyright &copy;2024; Designed by <span class="designer">alaa</span></p>
+   </div>
+</footer>
+
+<!-- SWIPER JS-->
+<script src="swiper-bundle.min.js"></script>
+
+<!-- MAIN JS-->
+<script src="main.js"></script>
+
+  <script src="script.js"></script>
+
 </body>
-<script src="script.js"></script>
+
 </html>
